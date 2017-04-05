@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luizh.jogodavelha.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="0.13">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/x1"
+                    android:layout_width="100dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/x" />
+
+                <ImageButton
+                    android:id="@+id/circulo1"
+                    android:layout_width="104dp"
+                    android:layout_height="98dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="106dp"
+                    android:layout_height="102dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio1"
+                    android:layout_weight="1" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x2"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo2"
+                    android:layout_width="100dp"
+                    android:layout_height="102dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="106dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio2"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="105dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x3"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo3"
+                    android:layout_width="100dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="106dp"
+                    android:layout_height="102dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio3"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="0.14">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="102dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x4"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo4"
+                    android:layout_width="102dp"
+                    android:layout_height="98dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="106dp"
+                    android:layout_height="97dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio4"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x5"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo5"
+                    android:layout_width="107dp"
+                    android:layout_height="104dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:id="@+id/vazio5"
+                    android:layout_width="106dp"
+                    android:layout_height="101dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vazio" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x6"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo6"
+                    android:layout_width="100dp"
+                    android:layout_height="104dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="105dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio6"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="0.17">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="106dp"
+                    android:layout_height="102dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x7"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo7"
+                    android:layout_width="102dp"
+                    android:layout_height="104dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="107dp"
+                    android:layout_height="102dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio7"
+                    android:layout_weight="1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/x8"
+                    android:layout_width="100dp"
+                    android:layout_height="104dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/x" />
+
+                <ImageButton
+                    android:id="@+id/circulo8"
+                    android:layout_width="100dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:id="@+id/vazio8"
+                    android:layout_width="105dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vazio" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="97dp"
+                    android:layout_height="109dp"
+                    app:srcCompat="@drawable/x"
+                    android:id="@+id/x9"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/circulo9"
+                    android:layout_width="102dp"
+                    android:layout_height="109dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/circulo" />
+
+                <ImageButton
+                    android:layout_width="104dp"
+                    android:layout_height="106dp"
+                    app:srcCompat="@drawable/vazio"
+                    android:id="@+id/vazio9"
+                    android:layout_weight="1" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/x" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt_mostra_x"
+                    android:layout_width="53dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="0.03"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/circulo" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_mostra_o"
+                    android:layout_width="53dp"
+                    android:layout_height="52dp"
+                    android:layout_weight="0.03"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_weight="0.56"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_empate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empate:"
+                    android:textAlignment="textStart"
+                    android:textSize="30sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt_mostra_empate"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="28sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_novo_jogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Novo Jogo"
+            android:textSize="24sp"
+            android:layout_weight="0.14" />
+
+    </LinearLayout>
+
+</RelativeLayout>
